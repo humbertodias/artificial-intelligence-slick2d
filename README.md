@@ -44,6 +44,9 @@ Run
 mvn package exec:java -Dexec.mainClass="com.me.game.Pong"
 ```
 
+### Output
+![Preview](doc/pong.gif)
+
 
 ## Manual steps
 
@@ -56,8 +59,14 @@ mvn package exec:java -Dexec.mainClass="com.me.game.Pong"
 * Click on "Debug" and you're all set !
 
 
+![Run Configuration](doc/run_configurations.png)
+
+
+
 ## References
 
 [http://slick.ninjacave.com](http://slick.ninjacave.com)
 
 [http://wiki.lwjgl.org/index.php?title=Setting_Up_LWJGL_with_Maven](http://wiki.lwjgl.org/index.php?title=Setting_Up_LWJGL_with_Maven)
+
+[Revista como programar: Pong com Slick2D](http://www.portugal-a-programar.pt/revista-programar/edicoes/download.php?e=25&t=site)

@@ -290,7 +290,6 @@ public class Pong extends BasicGame {
 		message = "You win! Press space to play again";
 	}
 
-	@Override
 	public void render(GameContainer container, Graphics g)
 			throws SlickException {
 		g.fill(ball);
