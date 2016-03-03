@@ -1,6 +1,6 @@
-# Artificial Intelligence with Slick2d
+# Games with Slick2D
 
-Simple game using Slick2d Library
+Simple games using Slick2d Library
 
 
 ## Prerequires
@@ -15,13 +15,13 @@ Simple game using Slick2d Library
 Clone
 
 ```
-git clone https://github.com/humbertodias/artificial-intelligence-slick2d.git
+git clone https://github.com/humbertodias/games-with-slick2d.git
 ```
 
 Inside the folder
 
 ```
-cd artificial-intelligence-slick2d
+cd games-with-slick2d
 ```
 
 Export
@@ -65,8 +65,8 @@ mvn package exec:java -Dexec.mainClass="com.me.game.Pong"
 
 ## References
 
-[http://slick.ninjacave.com](http://slick.ninjacave.com)
+[Slick2D Home](http://slick.ninjacave.com)
 
-[http://wiki.lwjgl.org/index.php?title=Setting_Up_LWJGL_with_Maven](http://wiki.lwjgl.org/index.php?title=Setting_Up_LWJGL_with_Maven)
+[LWJGL with Maven](http://wiki.lwjgl.org/index.php?title=Setting_Up_LWJGL_with_Maven)
 
 [Revista como programar: Pong com Slick2D](http://www.portugal-a-programar.pt/revista-programar/edicoes/download.php?e=25&t=site)
