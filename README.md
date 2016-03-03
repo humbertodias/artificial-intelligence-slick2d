@@ -41,11 +41,23 @@ export MAVEN_OPTS=-Djava.library.path=target/natives
 Run
 
 ```
-mvn package exec:java -Dexec.mainClass="com.me.game.Pong"
+mvn package exec:java -Dexec.mainClass="pong.Main"
 ```
+
 
 ### Output
 ![Preview](doc/pong.gif)
+
+
+Available games
+
+```
+mvn package exec:java -Dexec.mainClass="pong.Main"
+mvn package exec:java -Dexec.mainClass="pacman.Main"
+mvn package exec:java -Dexec.mainClass="invaders.Main"
+mvn package exec:java -Dexec.mainClass="spaceinvaders.Main"
+```
+
 
 
 ## Manual steps
