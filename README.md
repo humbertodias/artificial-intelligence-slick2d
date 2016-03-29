@@ -62,6 +62,8 @@ mvn package exec:java -Dexec.mainClass="spaceinvaders.Main"
 
 ## Manual steps
 
+### Eclipse
+
 * You must have the Maven **Eclipse** integration plugin installed (m2e)
 * Import the Maven project
 * Right-click on `Game`, Debug as, Java application
@@ -71,7 +73,14 @@ mvn package exec:java -Dexec.mainClass="spaceinvaders.Main"
 * Click on "Debug" and you're all set !
 
 
-![Run Configuration](doc/run_configurations.png)
+![Run Configuration](doc/run_config_eclipse.png)
+
+### NetBeans
+
+Click on Project and Right Button > Properties.
+Then, Run > VM Options
+
+![Run Configuration](doc/run_config_netbeans.png)
 
 
 
