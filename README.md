@@ -43,20 +43,20 @@ Run
 ```
 mvn package exec:java -Dexec.mainClass="pong.Main"
 ```
-
-
-### Output
 ![Preview](doc/pong.gif)
-
-
-Available games
+```
+mvn package exec:java -Dexec.mainClass="pacman.Main"
+```
+![Preview](doc/pac-man.gif)
+```
+mvn package exec:java -Dexec.mainClass="invaders.Main"
+```
+![Preview](doc/invaders.gif)
 
 ```
-mvn package exec:java -Dexec.mainClass="pong.Main"
-mvn package exec:java -Dexec.mainClass="pacman.Main"
-mvn package exec:java -Dexec.mainClass="invaders.Main"
 mvn package exec:java -Dexec.mainClass="spaceinvaders.Main"
 ```
+![Preview](doc/spaceinvaders.gif)
 
 
 
